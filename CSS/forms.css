@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+.maincontainer{
+  display: flex;
+  flex-direction: column;
+  font-family: roboto;
+
+}
+
+.contentForms{
+  display: none;
+}
+
+.formToggle{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
